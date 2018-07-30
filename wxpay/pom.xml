@@ -11,7 +11,7 @@
 
     <artifactId>wxpay</artifactId>
     <version>1.0.0</version>
-    <packaging>war</packaging>
+    <packaging>jar</packaging>
 
     <name>wxpay Maven Webapp</name>
     <!-- FIXME change it to the project's website -->
@@ -25,8 +25,12 @@
 
     <dependencies>
         <dependency>
-            <groupId>org.springframework.boot</groupId>
-            <artifactId>spring-boot-starter-web</artifactId>
+            <groupId>com.alibaba.boot</groupId>
+            <artifactId>dubbo-spring-boot-starter</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>com.alibaba.boot</groupId>
+            <artifactId>dubbo-spring-boot-actuator</artifactId>
         </dependency>
         <dependency>
             <groupId>com.payment</groupId>
