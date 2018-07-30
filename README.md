@@ -12,11 +12,14 @@
 2. jdpay
 > 京东支付
 
-3. core
+3. pay
+> 发起支付和处理支付结果
+
+4. core
 > 通用工具包
 
-4. unionpay
+5. unionpay
 > 银联支付
 
-5. wxpay
+6. wxpay
 > 微信支付
